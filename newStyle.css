@@ -1,0 +1,296 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 13px;
+}
+
+body {
+    height: 54.8rem;
+    width: 110.77rem;
+    background-color: hsl(210, 46%, 95%);
+    line-height: calc(1em + 0.5rem);
+    -webkit-font-smoothing: antialiased;
+}
+
+main {
+    max-width: 110.77rem;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div {
+    width: 56rem;
+    min-height: 37rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sec1 {
+    width: 38.46rem;
+    min-height: 17rem;
+    background-color: hsl(263, 55%, 52%);
+    border-radius: .4rem;
+    background-image: url(images/bg-pattern-quotation.svg);
+    background-repeat: no-repeat;
+    background-size: 5rem 5rem;
+    background-position: 28rem .5rem;
+}
+
+.sec1 span {
+    color: hsl(0, 0%, 100%);
+    opacity: 50%;
+    font-size: .7em;
+    font-weight: lighter;
+    position: relative;
+    left: 6em;
+    bottom: 4.7em;
+}
+
+.sec1 h2 {
+    color: hsl(0, 0%, 100%);
+    position: relative;
+    left: 5.3em;
+    bottom: 3.2em;
+    font-size: .8em;
+}
+
+.sec1 img {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 1.3em;
+    margin-left: 1.5em;
+    margin-top: 1em;
+    border: 1px solid hsl(263, 54%, 68%);
+}
+
+.sec1 figcaption {
+    position: relative;
+    bottom: 2.5rem;
+    margin-top: 0;
+    margin-left: 1.5rem;
+    white-space: pre-line;
+    font-size: 1.5rem;
+    color: hsl(0, 0%, 100%);
+}
+
+.sec1 blockquote {
+    position: relative;
+    bottom: 1.5rem;
+    white-space: pre-line;
+    color: hsl(0, 0%, 100%);
+    opacity: 70%;
+    font-size: .95rem;
+    margin-left: 1.5rem;
+    line-height: 1.3rem;
+    white-space: pre-line;
+}
+
+.sec2 {
+    width: 16rem;
+    min-height: 17rem;
+    background-color: hsl(217, 19%, 35%);
+    border-radius: .4rem;
+}
+
+.sec2 img {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 1.3rem;
+    margin-left: 2rem;
+    margin-top: 1.8rem;
+}
+
+.sec2 h2 {
+    color: hsl(0, 0%, 100%);
+    font-size: .8rem;
+    position: relative;
+    left: 5rem;
+    bottom: 2.5rem;
+    font-weight: lighter;
+}
+
+.sec2 span {
+    color: hsl(0, 0%, 100%);
+    opacity: 50%;
+    position: relative;
+    left: 5rem;
+    bottom: 3.2rem;
+    font-weight: lighter;
+    font-size: .7rem;
+}
+
+.sec2 figcaption {
+    white-space: pre-line;
+    color: hsl(0, 0%, 100%);
+    position: relative;
+    left: 2rem;
+    bottom: 2.4rem;
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+
+.sec2 blockquote {
+    white-space: pre-line;
+    color: hsl(0, 0%, 100%);
+    opacity: 70%;
+    position: relative;
+    left: 2rem;
+    bottom: 1.7rem;
+    line-height: 1.1rem;
+    font-size: .8rem;
+}
+
+#first {
+    background-color: hsl(0, 0%, 100%);
+}
+
+#first h2 {
+    color: hsl(219, 29%, 14%);
+
+}
+
+#first span {
+    color: hsl(219, 29%, 14%);
+    opacity: 50%;
+}
+
+#first figcaption {
+    color: hsl(219, 29%, 14%);
+}
+
+#first blockquote {
+    color: hsl(219, 29%, 14%);
+    opacity: 70%;
+    position: relative;
+    bottom: 1rem;
+}
+
+#second {
+    background-color: hsl(219, 29%, 14%);
+    background-image: none;
+}
+
+.third {
+    margin-left: 2rem;
+    width: 15rem;
+    height: 36rem;
+    border-radius: .4rem;
+    background-color: hsl(0, 0%, 100%);
+}
+
+.third img {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 1.3rem;
+    margin-left: 2rem;
+    margin-top: 1.8rem;
+}
+
+.third h2 {
+    color: hsl(219, 29%, 14%);
+    font-size: .8rem;
+    position: relative;
+    left: 5rem;
+    bottom: 2.5rem;
+    font-weight: lighter;
+}
+
+.third span {
+    color: hsl(219, 29%, 14%);
+    opacity: 50%;
+    position: relative;
+    left: 5rem;
+    bottom: 3.2rem;
+    font-weight: lighter;
+    font-size: .7rem;
+}
+
+.third figcaption {
+    white-space: pre-line;
+    color: hsl(219, 29%, 14%);
+    position: relative;
+    left: 2rem;
+    bottom: 2.4rem;
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+
+.third blockquote {
+    white-space: pre-line;
+    color: hsl(219, 29%, 14%);
+    opacity: 70%;
+    position: relative;
+    left: 2rem;
+    bottom: 1rem;
+    line-height: 1.1rem;
+    font-size: .8rem;
+}
+
+@media screen and (max-width:23.43em) {
+    main {
+        width: 23.43em;
+        height: 126em;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    main div {
+        width: 18.75em;
+        height: 84.375em;
+    }
+
+    .sec1 {
+        width: 18.75em;
+        height: 26.56em;
+        background-size: 5.625em 5.625em;
+        background-position: 11.875em 0em;
+        margin-top: 1em;
+    }
+
+    .sec1 figcaption {
+        white-space: normal;
+        font-size: 1.32em;
+    }
+
+    .sec1 blockquote {
+        white-space: normal;
+        line-height: 1.1em;
+    }
+
+    .sec2 {
+        margin-top: 1em;
+        width: 18.75em;
+        height: 12em;
+    }
+
+    .sec2 figcaption {
+        white-space: normal;
+        font-size: .9em;
+        font-weight: lighter;
+    }
+
+    .sec2 blockquote {
+        font-size: 1em;
+        font-weight: lighter;
+    }
+
+    .third {
+        width: 18.75em;
+        height: 34em;
+        margin-left: 0;
+    }
+}
